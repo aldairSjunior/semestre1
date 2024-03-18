@@ -1,10 +1,10 @@
 while True:
     nota = float(input('\nInforme sua nota: '))
 
-    if nota >= 7:
+    if nota > 7:
         print('\nEstudante aprovado!')
 
-    elif nota < 4:
+    elif 4 <= nota <= 7:
         print('\nEstudante em recuperação!')
 
     else:
