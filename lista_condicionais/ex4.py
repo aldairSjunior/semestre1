@@ -4,7 +4,7 @@ while True:
     if nota >= 7:
         print('\nEstudante aprovado!')
 
-    if nota < 4:
+    elif nota < 4:
         print('\nEstudante em recuperação!')
 
     else:
