@@ -1,5 +1,5 @@
 while True:
-    valores = input('\nDigite os valores dos coeficientes para formular uma equação de 2º grau: ').split()
+    valores = input('\nDigite os valores dos coeficientes para formular uma equação de 2º grau (a b c): ').split()
     val = [float(x) for x in valores]
 
     a = val[0]
@@ -20,3 +20,5 @@ while True:
 
     else:
         print('\nExistem 2 raízes reais iguais nessa equação')
+
+    print('\nSe quiser parar aperte r')
