@@ -10,5 +10,5 @@ while True:
     else:
         i.append(n)
     
-    print(f'\nNúmeros pares: ',p)
-    print(f'\nNúmeros ímpares: ',i)
+    print('\nNúmeros pares: ',p)
+    print('\nNúmeros ímpares: ',i)

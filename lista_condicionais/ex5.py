@@ -9,3 +9,6 @@ while True:
     elif s == 'f' or s == 'F':
         cal = (62.1 * h) - 44.7
         print(f'\nSeu peso ideal é {cal}kg')
+
+    else:
+        print('\nSexo inválido!')
