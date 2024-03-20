@@ -1,6 +1,6 @@
 while True:
     valores = input('\nDigite os valores dos coeficientes para formular uma equação de 2º grau: ').split()
-    val = [int(x) for x in valores]
+    val = [float(x) for x in valores]
 
     a = val[0]
     b = val[1]
