@@ -10,7 +10,7 @@ while True:
 
         else:
             if x == 2:
-                print('\nDOIS')
+                print('\nDOIs')
 
             else:
                 print('\nERRO')
