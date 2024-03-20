@@ -20,5 +20,3 @@ while True:
 
     else:
         print('\nExistem 2 raízes reais iguais nessa equação')
-
-    print('\nSe quiser parar aperte r')
